@@ -3,8 +3,24 @@ body{
     padding:0px;
 }
 
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color:rgb(136, 19, 3);
+    line-height: 72pt;
+    justify-content:center;
+    letter-spacing: 10px;
+    text-shadow: 1px 5px 5px #000;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-direction: column;
+    text-indent: 100%; 
+    font-size:4em;
+
+}
+
 .hero-section{
-    min-height: 100px;
+    min-height: 100vh;
     width: 100%;
     display:flex;
     justify-content: center;
@@ -12,7 +28,7 @@ body{
     text-align: center;
 }
 
-.hero-section video{
+.hero-section video {
     width: 100%;
     position: absolute;
     top:0;
@@ -20,5 +36,5 @@ body{
 
 }
 .hero-text{
-    border:
+    border:center;
 }
